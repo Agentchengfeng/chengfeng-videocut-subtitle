@@ -1,6 +1,6 @@
 {
   "name": "chengfeng-videocut-subtitle",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "private": true,
   "description": "用已有逐词稿与账本生成、校对和排版字幕。",
   "license": "Apache-2.0",
@@ -12,7 +12,8 @@
     "node": ">=18"
   },
   "chengfengDistribution": {
-    "channel": "github-preview"
+    "channel": "github-preview",
+    "status": "local-candidate"
   },
   "files": [
     "README.md",
