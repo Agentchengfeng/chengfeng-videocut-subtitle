@@ -1,0 +1,42 @@
+{
+  "name": "chengfeng-videocut-subtitle",
+  "version": "0.1.0-beta.1",
+  "private": true,
+  "description": "用已有逐词稿与账本生成、校对和排版字幕。",
+  "license": "Apache-2.0",
+  "author": "成峰 / AI产品自由",
+  "bin": {
+    "chengfeng-videocut-subtitle": "bin/install.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "chengfengDistribution": {
+    "channel": "github-preview"
+  },
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "skill-package.json",
+    "PUBLISHING.md",
+    "LICENSE",
+    "NOTICE.md",
+    "CITATION.cff",
+    "bin/install.cjs",
+    "bin/check-package.cjs",
+    ".agents/skills/chengfeng-videocut-subtitle"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agentchengfeng/chengfeng-videocut-subtitle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Agentchengfeng/chengfeng-videocut-subtitle/issues"
+  },
+  "homepage": "https://github.com/Agentchengfeng/chengfeng-videocut-subtitle#readme",
+  "scripts": {
+    "test": "node bin/install.cjs help",
+    "check:package": "node bin/check-package.cjs check",
+    "check:upload": "node bin/check-package.cjs upload"
+  }
+}

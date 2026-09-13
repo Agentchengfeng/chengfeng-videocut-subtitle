@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "chengfeng-videocut-subtitle",
+  "version": "0.1.0-beta.1",
+  "skillPath": ".agents/skills/chengfeng-videocut-subtitle",
+  "files": {
+    "CITATION.cff": "9c1170b69e67e6f571fac0bdce394626a627813501a15bee4ac1ff8b8f4dd2a5",
+    "LICENSE": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+    "NOTICE.md": "4b0b607d0c91be64e9f5395d3e028dad81d98a2dfff1aa38c432679d3c57f68f",
+    "SKILL.md": "638cdc6ac6f6a1f186fd33d86635318531da0e32276d0a0e90b6927ba74bde5d",
+    "agents/openai.yaml": "56e3d68f0f4fc8ad15f5657f0873f44264087bd4a229409c45023bb65297a77d",
+    "references/isolated-candidate.md": "fd10264664ebb26128f557a3f0cb97124e324231b50d1f91722851ce81dd77c8",
+    "references/shared/ai-term-dictionary.md": "d1a62bea810094c64c614396e7c878ef34afd66d070773bbc7377cea15f3dc21",
+    "references/shared/business-workflow-contract.md": "c311396e3d10f179c46a4a568acedcd22f384a61af654ae787d49f550f9fe97f",
+    "references/shared/existing-workflow.md": "93db2354e23dcca8aceeebb971b3f3deee62850ec01ea9324c206eace33e6ac2",
+    "references/shared/media-assets.md": "af5b42bf17729167413137f92f93dff7581fd5efb497d294a4cee10aac8f97b5",
+    "references/shared/module-publish.md": "86bc57dc5faafd1581aff3c80c4994dce16522fb542fb1bbe8345478fe2fb8da",
+    "references/shared/plugin-access.md": "fc7c42d6d9b56f2a83b898c992f5eef27b965481efe997b3690eb1ad499cc22a",
+    "references/shared/provenance.json": "f30d91f39bdbd79591d1c8facddd82634e512538b693ef15221e86924b21fee7",
+    "references/shared/runtime-cli.md": "d4ad73ec1dad054eb3413e8622b7d3b9c0bf84a0c3109aa40cf0d9c09a87c6a4",
+    "references/shared/visual-integration.md": "dc47c21bfcf99422cd08302be91237faebaab11897951a7bb3834f61388b72d1",
+    "references/shared/visual-module-contract.md": "a63d4e688599ea44207cd734b1afea518931127f199b4629093dad56af5d665b",
+    "references/subtitle-correction.md": "1b1b759563b18985eb8b808529c9fac2bb6ba0a8cfb6db85eafd3a3775896f51",
+    "scripts/candidate.mjs": "cdf36f38b68fe8c07d2ba37374bd494c898d10a35f08197379cda07ad059a96a",
+    "scripts/candidate.test.mjs": "184ef739fb4c774a0997754864bfc5c49738b1e958a50e2527740ee5d8fb8dca",
+    "scripts/path-safety.mjs": "4a5b4ed8cf977e7dcb88f544f0f9b517691769f8f1608153042e933b0fbd3678",
+    "scripts/rebuild-core.mjs": "b8f86d35a7c71d64e1482296ce6401d63d238ef036296ad9611be82f6dcf6d9f",
+    "scripts/submit.mjs": "750a836dff7dc0aad986c54f0fd69cde4f2a2f231714650ca62dce1743601b89",
+    "scripts/submit.test.mjs": "65e3f4641e3b5a71c58b051c29fd74238e2a28aaab0295bb0066ac20342c06c2",
+    "scripts/vendor/LICENSE": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+    "scripts/vendor/cuts.mjs": "a7294f7de00dfc7c815497bdb8ea69c99aed1a5e1f09246b8435e854076d198a",
+    "scripts/vendor/editList.mjs": "b59cca95fce43fd007ab71dc18ce1da151a6b835f8d5316f0c45941da60c46cf",
+    "scripts/vendor/provenance.json": "6c4ff0222e7158539027110c5de6817d779c1ca65561220ec9a86bfc022be319",
+    "scripts/vendor/subtitles.mjs": "1d609eb32d4d55a25aae00306597b813492ce661003cfe0eab28ccaea6d317af"
+  },
+  "runtime": {
+    "command": "chengfeng-videocut",
+    "minimumVersion": "0.5.9",
+    "requireCapabilityProbe": true,
+    "bundled": false,
+    "requiredFor": "project-operations",
+    "validatedPlatforms": [],
+    "notes": "Check actual workbench commands and endpoint capabilities; version alone is not sufficient."
+  },
+  "publication": {
+    "status": "github-source-preview",
+    "ref": "v0.1.0-beta.1",
+    "verification": "see-external-publication-receipt",
+    "repository": "Agentchengfeng/chengfeng-videocut-subtitle",
+    "remoteCommit": null,
+    "licenseReview": "project-license-retained",
+    "upload": {
+      "decision": "independent-candidate",
+      "blockers": []
+    }
+  }
+}
